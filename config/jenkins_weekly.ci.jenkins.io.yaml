@@ -145,6 +145,9 @@ controller:
             # Keep healthMetrics an empty list to ensure weather is disabled
             healthMetrics: []
         appearance:
+          pipelineGraphView:
+            showGraphOnBuildPage: true
+            showGraphOnJobPage: true
           themeManager:
             disableUserThemes: false
             theme: "darkSystem"
